@@ -88,4 +88,17 @@ Part 2: Method:
 
 **1. GENERATING PSEUDO-GENOMES WITH DIFFERENT INVERSION SIZES (FROM EC958)**
 
-Need to take a region in EC958 and generate psuedo-references with different inversion sizes. 
+Need to take a region in EC958 and generate psuedo-references with different inversion sizes.
+
+Take region in sufS (EC958):
+*Reason? Arbitrarily chosen*
+
+1. 1821200..1821300 (100 bp)
+2. 1821000..1821500 (500 bp)
+3. 1820900..1821600 (700 bp)
+4. 1820800..1821800 (1000 bp)
+5. 1820000..1822000 (2000 bp)
+6. 1819000..1822000 (3000 bp)
+
+Need to create extra genomes where these regions are inverted (reverse complemented).
+Then, need to generate pseudo-references that have 1000 bp flanking region.
