@@ -101,4 +101,6 @@ Take region in sufS (EC958):
 6. 1819000..1822000 (3000 bp)
 
 Need to create extra genomes where these regions are inverted (reverse complemented).
-Then, need to generate pseudo-references that have 1000 bp flanking region.
+Then, need to generate pseudo-references that have 1000 bp flanking region. This can be done with the newly generated CIRQUE_create_reference.py script.
+
+
