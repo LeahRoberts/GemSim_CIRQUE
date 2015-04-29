@@ -24,17 +24,15 @@ We also want to generate invertible DNA regions of different sizes and test dete
 Inversion sizes:
 
 1. 100 bp inversion
-2. 200 bp inversion
-3. 300 bp inversion (like fimS)
-4. 500 bp inversion
-5. 700 bp inversion 
-6. 1000 bp inversion
-7. 2000 bp inversion
-8. 3000 bp inversion
+2. 500 bp inversion
+3. 700 bp inversion 
+4. 1000 bp inversion
+5. 2000 bp inversion
+6. 3000 bp inversion
 
 
-Method:
---------
+Part 1: Method:
+----------------
 
 **1. GENERATING SIMULATED READS USING GEMSIM (http://sourceforge.net/projects/gemsim/)**
 
@@ -82,3 +80,12 @@ files to be constructed before it can be run. Refer to information on github.
 
 DiSCO was run on all of the "merged simreads" for the OFF/ON inversion test. This test proved successful. All of the files were 
 generated and run on the binf-training server in leah@binf-training:~/Projects/GemSIM_fimS_pseudoseq 
+
+
+
+Part 2: Method:
+---------------
+
+**1. GENERATING PSEUDO-GENOMES WITH DIFFERENT INVERSION SIZES (FROM EC958)**
+
+Need to take a region in EC958 and generate psuedo-references with different inversion sizes. 
