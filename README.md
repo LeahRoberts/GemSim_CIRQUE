@@ -104,3 +104,14 @@ Need to create extra genomes where these regions are inverted (reverse complemen
 Then, need to generate pseudo-references that have 1000 bp flanking region. This can be done with the newly generated CIRQUE_create_reference.py script.
 
 
+Part 3: Method:
+----------------
+
+Aim: Looking at the different sites within EC958 that are invertible.
+
+Using fimS, hyxR and the Phi invertible regions (1,2, and 4) using Illumina paired-end data from Sohinee's fim switch analysis, taking the WT EC958 strain grown on day 0 and day 5 (day 0 = shaking, day 5 = fifth day after static growth).
+
+Method:
+
+Created pseudo-references for use with DiSCO (or whatever it's called now). 
+
