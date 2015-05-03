@@ -100,9 +100,17 @@ Take region in sufS (EC958):
 5. 1820000..1822000 (2000 bp)
 6. 1819000..1822000 (3000 bp)
 
-Need to create extra genomes where these regions are inverted (reverse complemented).
-Then, need to generate pseudo-references that have 1000 bp flanking region. This can be done with the newly generated CIRQUE_create_reference.py script.
+Need to create extra genomes where these regions are inverted (reverse complemented). This was done manually.
+To create reads for both orientations, reads were generated using GemSIM from the fasta references (with the pseudo-inversion).
 
+The command to do this was::
+
+ $ ~/bin/GemSIM_v1.6/GemReads.py -r EC958_complete.fasta -n 2000000 -l 100 -u 300 -s 20 -m ~/bin/GemSIM_v1.6/models/ill100v4_p.gzip -c -q 64 -o EC958_original_paired_sim -p
+
+The reads were then distributed 50/50 between inversion orientations using -head and -tail which has worked previously.
+
+Then, need to generate pseudo-references that have 1000 bp flanking region. This can be done with the newly generated CIRQUE_create_reference.py script.
+Once the reference files have been generated, the files can be run through DiSCus.
 
 Part 3: Method:
 ----------------
