@@ -117,6 +117,30 @@ The reads were then distributed 50/50 between inversion orientations using -head
 Then, need to generate pseudo-references that have 1000 bp flanking region. This can be done with the newly generated CIRQUE_create_reference.py script.
 Once the reference files have been generated, the files can be run through DiSCus.
 
+Amendements:
+------------
+
+The above didn't quite give the expected results, so I will redo the analysis using a different region and more inversion sizes to specifically determine the effectiveness of both methods (bedmaps and paired-end) on inversion size.
+
+Inversion sizes:
+
+1. 150 bp (1827933..1828082)
+2. 250 bp (1827933..1828182)
+3. 350 bp (1827933..1828282)
+4. 500 bp (1827933..1828432)
+5. 600 bp (1827933..1828532)
+6. 700 bp (1827933..1828632)
+7. 800 bp (1827933..1828732)
+8. 1000 bp (1827933..1828932)
+9. 1250 bp (1827933..1829182)
+10. 1500 bp (1827933..1829432)
+11. 1750 bp (1827933..1829682)
+12. 2000 bp (1827933..1829932)
+13. 2500 bp (1827933..1830432)
+14. 3000 bp (1827933..1830933)
+
+Analysis method will be the same as before, with a different inversion region in EC958: position 1827933 onwards
+
 Part 3: Method:
 ----------------
 
