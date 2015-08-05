@@ -2,6 +2,11 @@ Method for generating simulated reads for EC958 fimS OFF and ON orientations
 =============================================================================
 
 
+NOTE:
+======
+
+**Found a bug in the DISCus_general.sh script - redid all of these analyses for the paired-end data.**
+
 Theory:
 --------
 
